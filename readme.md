@@ -2,60 +2,20 @@
 
 Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. This readme goes over the weather dashboard website made using the OpenWeather API.
 
-Github Link: 
+### Github Link: https://github.com/ZaphodBettlebrox/OpenWeatherAPI/
 
-Live link:
+### Live link: https://zaphodbettlebrox.github.io/OpenWeatherAPI/
 
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Getting Started
+To run the program, open the live link above, this will take you to the website page. On the far left hand side there is a search bar where you can search the location you want to see the weather of. Once its searched the city will be added to the list below, click one of the cities from that list to then see the weather displayed. 
 
-Prerequisites
-What things you need to install the software and how to install them
+There are two locations where the weather is shown, one is the current day information shown in the upper right bar, the other below segment shows a five day weather report as well.
 
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+## Built With
+Html
+CSS
+JS
+OpenWeatherAPI
 
-Say what the step will be
-
-Give the example
-And repeat
-
-until finished
-End with an example of getting some data out of the system or using it for a little demo
-
-Running the tests
-Explain how to run the automated tests for this system
-
-Break down into end to end tests
-Explain what these tests test and why
-
-Give an example
-And coding style tests
-Explain what these tests test and why
-
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
-
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-
-Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+## Authors
+Aidan Willett - Initial work
