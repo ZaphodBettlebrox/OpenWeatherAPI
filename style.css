@@ -1,0 +1,52 @@
+h1{
+    background: rgb(45, 45, 48);
+    color: white;
+    padding: 5vh;
+    text-align: center;
+    width: 100%;
+}
+.col-md-12{
+    padding: 0;
+}
+.fiveday{
+ background: rgb(79, 79, 255);
+ color: white;
+ padding-left: 30px;
+ margin-right: 1vw;
+ padding-top: 3vh;
+ margin-top: 1vh;
+}
+.blue{
+    background: rgb(79, 79, 255);
+    color: white;
+}
+.searchbox{
+    background: rgb(231, 231, 231);
+    height: 75vh;
+}
+.infobox{
+    border: solid rgb(141, 141, 141) 1px;
+    padding-left: 3vw;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    margin-left: 2vw;
+}
+.forecastbox{
+    margin-top: 5vh;
+    padding-left: 6vw;
+}
+.col-md-7{
+    padding: 0;
+}
+.weather-btn{
+    border: 0;
+    background: rgb(79, 79, 255);
+    margin-top: 2vh;
+    margin-left: 2vw;
+    color: white;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
