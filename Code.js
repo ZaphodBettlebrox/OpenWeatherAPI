@@ -59,10 +59,10 @@ function displayWeatherInfo(){
   var weather = $(this).attr("data-name");
 
   // other api key
-  var APIKey = "166a433c57516f51dfab1f7edaed8413";
+  // var APIKey = "166a433c57516f51dfab1f7edaed8413";
 
   // my api key
-  // var APIKey = "513fc90bd741df712ec9a2ee8086222d";
+  var APIKey = "513fc90bd741df712ec9a2ee8086222d";
 
 
   var queryURL = "https://api.openweathermap.org/data/2.5/weather?" +
@@ -116,7 +116,7 @@ function displayWeatherInfo(){
 
 function getuvindex(APIKey, lat, lon){
 
-var APIKey = "166a433c57516f51dfab1f7edaed8413";
+  var APIKey = "513fc90bd741df712ec9a2ee8086222d";
 
 var queryURL = "https://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + "&appid=" + APIKey;
 $.ajax({
@@ -132,7 +132,7 @@ $.ajax({
 function getfiveday(weather){
 
   
-  var APIKey = "166a433c57516f51dfab1f7edaed8413";
+  var APIKey = "513fc90bd741df712ec9a2ee8086222d";
 
   var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + weather + ",us&mode=xml=imperial&appid=" + APIKey;
   $.ajax({
